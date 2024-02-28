@@ -15,4 +15,7 @@ public class User {
     private String lastName;
     private String email;
 
+    public String getUserId() {
+        return userId;
+    }
 }

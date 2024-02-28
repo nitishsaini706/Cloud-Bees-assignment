@@ -18,4 +18,32 @@ public class Ticket {
     private String seat;
 
 
+    public void setSection(String s) {
+    }
+
+    public void setSeat(String newSeat) {
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public String getSection() {
+        return section;
+    }
+
+    public void setPricePaid(int pricePaid) {
+        this.pricePaid=pricePaid;
+    }
+
+    public String getSeat() {
+        return seat;
+    }
 }
